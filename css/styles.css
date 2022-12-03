@@ -473,21 +473,22 @@ td {
         margin: 2rem 0;
         padding: .5rem;
     }
-    .navbar-list li:hover,
+    /* .navbar-list li:hover,
     .main-active {
-        background-color: white;
-    }
+        /* background-color: white; */
+    } */
     .navbar-list a {
         color: white;
+        border: 0;
     }
 
     .navbar-list li ul li a {
         color:var(--blue-highlight);
     }
     
-    .navbar-list li ul li a:hover {
+    /* .navbar-list li ul li a:hover {
         color: white;
-    }
+    } */
 
     .form {
         width: 100%;
