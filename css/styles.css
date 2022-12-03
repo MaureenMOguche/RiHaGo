@@ -476,7 +476,7 @@ td {
     /* .navbar-list li:hover,
     .main-active {
         /* background-color: white; */
-    } */
+     */
     .navbar-list a {
         color: white;
         border: 0 solid transparent;
@@ -574,7 +574,4 @@ td {
     table, thead, td {
         border: .08rem solid black;
     }
-
-
-
 }
