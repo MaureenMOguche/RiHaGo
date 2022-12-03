@@ -50,7 +50,7 @@
 
     <section>
         <div class="top-boxes">
-            <div class="first-row">
+            <div class="first-row row">
                 <div>Consignor:</div>
                 <div>Stock Location</div>
                 <div>Contact Details</div>
@@ -84,7 +84,7 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
               </div>
 
-              <div class="first-row">
+              <div class="first-row row">
                 <div>Tag #:</div>
                 <div>Bid Count:</div>
                 <div>Views</div>
@@ -92,31 +92,48 @@
 
               <div class="second-row">
                 <p>Asset: Detail</p>
-                <div class="row">
-                    <div class="innerbox">
+                <div class="row flex-bottom">
+                    <div class="innerbox col6">
                         <div class="part1">
-                            <button>Hard Bid</button>
-                            <button>N1,000,000.00</button>
+                            <button class="skeletal-btn color-btn3">Hard Bid</button>
+                            <button class="skeletal-btn">N1,000,000.00</button>
                         </div>
                         <div class="part1">
-                            <button>Auto Bid</button>
-                            <input type="text" placeholder="Enter Amount">
+                            <button class="skeletal-btn color-btn3">Auto Bid</button>
+                            <input type="text" placeholder="Enter Amount" class="skeletal-btn">
                         </div>
                     </div>
                     <div class="col6">
-                        <button>Buy it Now</button>
-                        <button>N2,500,000.00</button>
+                        <button class="skeletal-btn color-btn3">Buy it Now</button>
+                        <button class="skeletal-btn">N2,500,000.00</button>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="square-red"></div>
+                <div class="rowe">
+                    <div class="col">
+                        <div class="square-red"></div>
+                        <p>Bid Amount VAT 7.5%</p>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="square-red"></div>
+                        <p>Buyers Fees 10%</p>
+                    </div>
+
+                    <div class="col">
+                        <div class="square-red"></div>
+                        <p>Buyers Fee VAT 7.5%</p>
+                    </div>
                     
                 </div>
               </div>
         </div>
         <div class="details-buttons">
-
+            <button class="skeletal-btn">Specifications</button>
+            <button class="skeletal-btn">Reports</button>
+            <button class="skeletal-btn">Maps</button>
+            <button class="skeletal-btn">Terms and Conditions</button>
+            <button class="skeletal-btn">Like Assets</button>
         </div>
         
     </section>
