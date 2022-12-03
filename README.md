@@ -7,14 +7,14 @@ https://maureenmoguche.github.io/RiHaGo/
 
 - List view page https://maureenmoguche.github.io/RiHaGo/asset-details-page-listview.html
 
-- Asset Details Page https://github.com/MaureenMOguche/RiHaGo/asset-details-page.html
+- Asset Details Page https://maureenmoguche.github.io/RiHaGo/asset-details-page.html
 
-- Dashboard https://github.com/MaureenMOguche/RiHaGo/dashboard.html
+- Dashboard https://maureenmoguche.github.io/RiHaGo/dashboard.html
 
-- Wishlist https://github.com/MaureenMOguche/RiHaGo/my-wishlist.html
+- Wishlist https://maureenmoguche.github.io/RiHaGo/my-wishlist.html
 
-- Wishlist Asset https://github.com/MaureenMOguche/RiHaGo/my-wishlist-asset.html
+- Wishlist Asset https://maureenmoguche.github.io/RiHaGo/my-wishlist-asset.html
 
-- Personal Profile https://github.com/MaureenMOguche/RiHaGo/personal-profile.html
+- Personal Profile https://maureenmoguche.github.io/RiHaGo/personal-profile.html
 
-- Rate Us https://github.com/MaureenMOguche/RiHaGo/rate-us.html
+- Rate Us https://maureenmoguche.github.io/RiHaGo/rate-us.html
