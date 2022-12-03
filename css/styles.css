@@ -93,6 +93,7 @@ ul.dropdown-menu li:hover{
     color: white;
 }
 
+
 ul.dropdown-menu li a {
     border: none;
     background-color: transparent;
@@ -242,7 +243,9 @@ footer p {
     z-index: 3;
     display: none;
 }
-
+.col p {
+    font-size: .75rem;
+}
 .form {
     width: 80%;
     margin: 0 auto 10% auto;

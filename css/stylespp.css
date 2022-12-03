@@ -158,6 +158,7 @@
 }
 
 .wishlist1,
+.wishlist2,
 .df-img,
 .assest-description-img,
 .cover,
@@ -265,11 +266,19 @@
     border: none;
 }
 
-.first-row div {
+.first-row div,
+.first-row select {
     border: .1rem solid var(--blue-highlight);
     width: 32%;
     padding: .75rem;
     border-radius: .5rem; 
+}
+.first-row input::placeholder{
+    color: white;
+    opacity: 1;
+}
+.first-row input {
+    width: 32%;
 }
 
 .second-row{
@@ -293,7 +302,27 @@
     display: flex;
     justify-content: center;
 }
+.rowd {
+    display: flex;
+    justify-content: space-between;
+}
+.wishlist-rowcol {
+    display: flex;
+    flex-direction: column;
+}
 
+.wishlist-rowcol div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.square-group{
+    display: flex;
+    align-items: center;
+    font-size: .5rem;
+    font-weight: bold;
+    margin-top: 2%;
+}
 .second-row button,
 .second-row input {
     width: 40%;
@@ -305,7 +334,65 @@
 .details-buttons button {
     margin: .75rem;
 }
+.wishlist1space {
+    width: 32%;
+    margin: auto;
+}
+.top-left-tag{
+    position: absolute;
+    width: 120px;
+    height: 0px;
+    /* background-color: var(--blue-highlight); */
+    left: -1.9rem;
+    top: .2rem;
+    transform: rotate(315deg);
+    border-bottom: 45px solid var(--blue-highlight);
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    color:white;
+    text-align: center;
+}
+.rowspace {
+    margin-top: 3%;
+    font-size: smaller;
+}
+.pagination{
+    justify-content: center;
+}
+.pagination button{
+    margin-right: 2rem;
+}
+.wrap-text{
+    width: 100%;
+    border: .1rem solid var(--blue-highlight);
+    padding: .5rem .75rem;
+    border-radius: .5rem;
 
+}
+.wishlist-grid{
+    display: grid;
+    grid-template-areas: 
+    "grid1 grid2 grid3 grid4"
+    "grid5 grid5 grid6 grid4";
+    grid-gap: 2px;
+}
+.assd{
+    flex-direction: column;
+}
+.grid1{grid-area: grid1;}
+.grid2{grid-area: grid2;}
+.grid3{grid-area: grid3;}
+.grid4{grid-area: grid4;}
+.grid5{grid-area: grid5;}
+.grid6{grid-area: grid6;}
+
+[class^=grid] {
+    border: .1rem solid black;
+    border-radius: .75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -432,7 +519,8 @@
         width: 85%;
     }
  
-    .first-row div{
+    .first-row div,
+    .first-row{
         width: 100%;
     }
     .col6{
@@ -442,4 +530,9 @@
         flex-direction: column;
         margin: 2rem 0;
     }
+
+    .rowspace{
+        width: 100%;
+    }
+
 }
