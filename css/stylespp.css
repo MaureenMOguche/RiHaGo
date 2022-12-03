@@ -1,0 +1,314 @@
+/* starts from the personal profile file */
+
+.top-table,
+.information h3{
+    display: flex;
+    justify-content: space-between;
+    color: var(--blue-highlight);
+    margin-bottom: .5rem;
+}
+
+.information h3 {margin-top: .75rem;}
+.span-td {
+    width: 80%;
+}
+
+.personal-info-edit {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-info-edit input {
+    width: 50%;
+    padding: .5rem .75rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    border: .06rem solid grey;
+}
+
+.color-btn {
+    background-color: var(--blue-highlight);
+    color: white;
+    padding: .5rem .75rem;
+}
+
+.btn-full {width: 100%;}
+.divider {
+    border: .1rem solid var(--blue-highlight);
+    background-color: var(--blue-highlight);
+    width: 95%;
+    margin: 0 auto 1rem;
+}
+
+.rate-services-main{
+    width: 80%;
+    margin: auto;
+}
+.rate-services-main h3{
+    margin-bottom: 2rem;
+}
+.rate-service {
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-rating {
+    padding: .5rem .75rem;
+    border-radius: .5rem;
+}
+.colored-star {
+    color: var(--blue-highlight);
+}
+
+.stars i {
+    font-size: 1.2rem;
+}
+
+.rate-bottom {
+    width: 80%;
+    margin: auto;
+    border: .12rem solid var(--blue-highlight);
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.rate-buttons {
+    width: 100%;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.star-group {
+    display: flex;
+    margin: 3% 0;
+}
+.rate-divide {
+    margin: 4%;
+    width: 100%;
+    border: .05rem solid grey;
+}
+.bid-text p {
+    margin-bottom: 1rem;
+}
+.audit-table {
+    margin-top: 5%;
+}
+.audit-table thead {
+    background-color: white;
+}
+
+.green-btn{
+    background-color: green;
+    color: white;
+    padding: .5rem .75rem;
+    border-radius: .5rem;
+    margin: .5rem 0;
+    border: none;
+}
+
+.blue-btn{
+    background-color: blue;
+    color: white;
+    padding: .5rem .75rem;
+    border-radius: .5rem;
+    margin: .5rem 0;
+    border: none;
+}
+.main-form {
+    box-shadow: 0 0 8px;
+    padding: 1rem 1.5rem;
+    margin: 3% 0;
+    border-radius: 1rem;
+}
+
+.audit-input-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.audit-input-group {
+    width: 30%;
+}
+.audit-input-group input,
+.audit-input-group select {
+    width: 100%;
+    padding: .5rem .75rem;
+    border-radius: .5rem;
+    border: .05rem solid grey;
+    margin: 0 0 .5rem;
+}
+
+.wishlist1,
+.wishlist-row {
+    width: 100%;
+    text-align: center;
+}
+
+.wishlist-row{
+    display: flex;
+    justify-content: space-between;
+}
+.consignor{
+    width: 70%;
+    margin: auto;
+    padding: .75rem 1.25rem;
+    border: .1rem solid black;
+    border-radius: .5rem;
+}
+
+.wishlist1,
+.df-img,
+.assest-description-img,
+.cover,
+.no-bid,
+.watching,
+.time-rem,
+.add-to-wishlist,
+.bid {
+    border-radius: 1.75rem;
+    border: .1rem solid black;
+    padding: 1rem;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+.wishlist1 {
+    border-radius: 3rem;
+    position: relative;
+}
+
+.wishlist-innermost {
+    padding: .5rem;
+    border-radius: 1rem;
+    border: .1rem solid black;
+}
+.color-asset{
+    display: flex;
+    align-items: center;
+}
+.fa-plus {
+    font-size: 3rem;
+    color: red;
+}
+.red,
+.green {
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+.red{background-color: red;}
+.green{background-color: green;}
+.wish-asset-align {
+    margin: auto;
+}
+
+.sales-type-page{
+    width: 70%;
+    margin: auto;
+}
+.sales-type {
+    margin: 2.5rem 0;
+}
+
+.skeletal-btn {
+    padding: .5rem 1rem;
+    border: .1rem solid var(--blue-highlight);
+    border-radius: .5rem;
+}
+.small {
+    font-size: .8rem;
+    margin: .5rem 0;
+}
+
+.bid,
+.other-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.checkk{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+.square-blue{
+    background-color: var(--blue-highlight);
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+.square-white{
+    background-color: white;
+    width: 1rem;
+    height: 1rem;
+    border: .15rem solid var(--blue-highlight);
+    margin-right: 1rem;
+}
+
+.color-btn3 {
+    background-color: var(--blue-highlight);
+    color: white;
+    padding: .5rem .75rem;
+}
+.orange-btn{
+    background-color: var(--orange-highlight);
+    border: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .personal-info-edit input{
+        width: 100%;
+    }
+    .bid-audit-table{
+        font-size: .65rem;
+    }
+
+    .bid-audit-table td{
+        padding: .1rem .1rem;
+    }
+    .color-btn{
+        font-size: .7rem;
+        padding: .1rem .15rem;
+    }
+    section.dashboard {
+        margin: 20% 0;
+    }
+
+    .rate-service {
+        flex-direction: column;
+    }
+    .rate-service div {
+        width: 100%;
+    }
+    .color-btn2{
+        background-color: var(--blue-highlight);
+        padding: .25rem .5rem;
+        border-radius: .5rem;
+        border: none;
+        color: white;
+    }
+
+    
+    .star-group p {
+        margin-left: 2rem;
+    }
+    .audit-input-row {
+        flex-direction: column;
+        margin: 10%;
+    }
+    .audit-input-group{
+        display: block;
+        width: 100%;
+    }
+    .sales-type-page {
+        width: 85%;
+    }
+    
+}
