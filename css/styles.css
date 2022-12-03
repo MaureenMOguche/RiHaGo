@@ -489,6 +489,9 @@ td {
         color: white;
     }
 
+    .form {
+        width: 100%;
+    }
     .row,
     .collaborators {
         flex-direction: column;
