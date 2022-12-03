@@ -479,7 +479,7 @@ td {
     } */
     .navbar-list a {
         color: white;
-        border: 0;
+        border: 0 solid transparent;
     }
 
     .navbar-list li ul li a {
