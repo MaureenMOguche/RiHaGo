@@ -52,7 +52,7 @@ a.navbar-a {
     border: 2px solid var(--blue-highlight);
     transition: all .2s;
 }
-ul.navbar-list li a:hover {
+ul.navbar-list li a.navbar-a:hover {
     background-color: var(--blue-highlight);
     color:white;
 }
@@ -88,10 +88,18 @@ ul.dropdown-menu li {
     width: 100%;
 }
 
+ul.dropdown-menu li:hover{
+    background-color: var(--blue-highlight);
+    color: white;
+}
+
 ul.dropdown-menu li a {
     border: none;
     background-color: transparent;
     font-size: .8rem;
+}
+ul.dropdown-menu li a:hover{
+    color: white;
 }
 
 section {
